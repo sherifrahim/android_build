@@ -845,7 +845,8 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.Print("          \ r-7  `-. ._  ' .  `\	")
   script.Print("           \`,      `-.`7  7)   )	")
   script.Print("            \/         \|  \ 		")
- 
+
+  script.AppendExtra("ifelse(is_mounted(\"/system\"), unmount(\"/system\"));")
   device_specific.FullOTA_InstallBegin()
 
   if target_info.get("system_root_image") == "true":
