@@ -821,7 +821,31 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   # Dump fingerprints
   script.Print("Target: {}".format(target_info.fingerprint))
-
+  script.Print("                           ___  __  ") 
+  script.Print("   /\ /\__ _ _ __   __ _  /___\/ _\ ") 
+  script.Print("  / //_/ _` | '_ \ / _` |//  //\ \  ") 
+  script.Print(" / __ \ (_| | | | | (_| / \_// _\ \ ") 
+  script.Print(" \/  \/\__,_|_| |_|\__, \___/  \__/ ") 
+  script.Print("                    |___/           ")
+  script.Print(" --    Kanging Your Device    --    ")
+  script.Print("              \						")
+  script.Print("              \\					")
+  script.Print("               \\					")
+  script.Print("                \\					")
+  script.Print("                 >\/7				")
+  script.Print("             _.-(6'  \				")
+  script.Print("            (=___._/` \				")
+  script.Print("                 )  \ |				")
+  script.Print("                /   / |				")
+  script.Print("               /    > /				")
+  script.Print("              j    < _\				")
+  script.Print("          _.-' :      ``.			")
+  script.Print("          \ r=._\        `.			")
+  script.Print("         <`\\_  \         .`-.		")
+  script.Print("          \ r-7  `-. ._  ' .  `\	")
+  script.Print("           \`,      `-.`7  7)   )	")
+  script.Print("            \/         \|  \ 		")
+ 
   device_specific.FullOTA_InstallBegin()
 
   if target_info.get("system_root_image") == "true":
