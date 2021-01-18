@@ -576,6 +576,10 @@ function choosecombo()
     set_stuff_for_environment
     printconfig
     destroy_build_var_cache
+
+    echo "";
+    cat $(gettop)/build/make/kangos_ascii;
+    echo"";
 }
 
 function add_lunch_combo()
